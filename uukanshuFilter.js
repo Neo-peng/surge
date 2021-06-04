@@ -5,9 +5,11 @@ var res = body.match(/<div class="(samebooks1|share)[\s\S]*?"[\s\S]*?>[\s\S]*?<\
 // console.log(typeof res)
 if (res !== null) {
   for (let e of res) {
+    console.log(e)
+    console.log("分割线")
     body = body.replaceAll(e, "")
   }
 } else {
-  // console.log("no match")
+  console.log("no match")
 }
 $done({body});
