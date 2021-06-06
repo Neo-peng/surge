@@ -1,5 +1,4 @@
 var body = $response.body;
-// console.log(re.test(body));
 // 过滤掉推荐书籍和下方的分享按钮
 var res = body.match(/<div class="(samebooks1|share)[\s\S]*?"[\s\S]*?>[\s\S]*?<\/div>/g)
 
@@ -9,4 +8,19 @@ if (res !== null) {
   }
 } else {
 }
+var style = "\"width:50px;height:50px;float:right;background:grey;position:fixed;right:0;top:50%;opacity:0.5;border-radius:50%;\""
+var s = `<script> \
+ console.log('hello') \ 
+ let btn = document.createElement(\"button\"); \
+ var isScrolling = false; \ 
+ btn.innerHTML = \"start scroll\"; \
+ btn.style.cssText += ${style}; \
+ btn.addEventListener(\"click\", () => onclick); \ 
+ let autoScroll = () => {if(isScrolling){window.scrollBy(0, 1);setTimeout('autoScroll()', 10)}};
+ onclick = function() {console.log(\"click\"); isScrolling=!isScrolling; if(isScrolling){btn.style.display='none'}else{btn.style.display='block'}; autoScroll()}; \
+ document.body.appendChild(btn); \
+ </script>"; `
+// var endBody = body.match(/<\/body>/g)
+body = body + s
+// console.log(body)
 $done({body});
