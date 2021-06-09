@@ -12,12 +12,12 @@ var style = "\"width:50px;height:50px;float:right;background:grey;position:fixed
 var s = `<script> \
  console.log('hello') \ 
  let btn = document.createElement(\"button\"); \
- var isScrolling = false; \ 
+ let isScrolling = false; \ 
+ let onclick = function() {console.log(\"click\"); isScrolling=!isScrolling; autoScroll()}; \
  btn.innerHTML = \"start scroll\"; \
  btn.style.cssText += ${style}; \
- btn.addEventListener(\"click\", () => onclick); \ 
- let autoScroll = () => {if(isScrolling){window.scrollBy(0, 1);setTimeout('autoScroll()', 10)}};
- onclick = function() {console.log(\"click\"); isScrolling=!isScrolling; if(isScrolling){btn.style.display='none'}else{btn.style.display='block'}; autoScroll()}; \
+ btn.addEventListener(\"click\", onclick); \ 
+ let autoScroll = () => {if(isScrolling){window.scrollBy(0, 1);setTimeout(autoScroll, 10)}};
  document.body.appendChild(btn); \
  </script>"; `
 // var endBody = body.match(/<\/body>/g)
