@@ -3,7 +3,7 @@
 #!system=mac
 
 [URL Rewrite]
-^https://www\.google\.com http://www.google.com/ncr
+^https://www\.google\.com https://google.com/ncr
 
 [MITM]
 hostname = %INSERT% www.google.com,www.google.com.*
