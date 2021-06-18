@@ -1,3 +1,6 @@
+#!name=sub-store
+#!desc=订阅转换
+
 [MITM]
 hostname=sub.store
 
