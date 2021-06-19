@@ -1,3 +1,5 @@
+#!name= TikTok UK
+#!desc=	解锁英国
 [URL Rewrite]
 
 (?<=_region=)CN(?=&) UK 307
