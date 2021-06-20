@@ -34,17 +34,17 @@ let s = `<script>
  btn.innerHTML = "start scroll"; 
 
  let startScroll = function(event) {isScrolling=!isScrolling; autoScroll();}; 
- let handlePageup = () => {window.scrollBy(0, -window.innerHeight)};
- let handlePagedown = () => {window.scrollBy(0, window.innerHeight)}
+ let handlePageup = (e) => {window.scrollBy(0, -window.innerHeight);e.stopPropagation()};
+ let handlePagedown = (e) => {window.scrollBy(0, window.innerHeight)}
  
  btn.style.cssText += ${style}; 
  area.style.cssText += ${containerStyle};
  pageupBtn.style.cssText += ${upArrowStyle};
  pagedownBtn.style.cssText += ${downArrowStyle};
 
- btn.addEventListener("click", startScroll); 
- pageupBtn.addEventListener("click", handlePageup);
- pagedownBtn.addEventListener("click", handlePagedown);
+ btn.addEventListener("touchstart", startScroll); 
+ pageupBtn.addEventListener("touchstart", handlePageup);
+ pagedownBtn.addEventListener("touchstart", handlePagedown);
 
  area.appendChild(pageupBtn)
  area.appendChild(btn)
