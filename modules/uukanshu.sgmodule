@@ -1,0 +1,8 @@
+#!name=uukanshu
+#!desc=自动滚屏，删除推荐书籍
+
+[Script]
+http-response https?://sj.uukanshu.com/read.aspx script-path=./test.js,requires-body=true
+
+[MITM]
+hostname=sj.uukanshu.com
