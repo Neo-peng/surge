@@ -1,0 +1,429 @@
+[
+  {
+    "name": "[Lite]台湾Hinet|三网优化|直连|原生|TW01@V2",
+    "type": "vmess",
+    "server": "tw01.nodes.backwaves.net",
+    "port": "8081",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "baidu.com"
+    }
+  },
+  {
+    "name": "[Lite]尼日利亚Cybree|联通优化|直连|原生|NR01@V2",
+    "type": "vmess",
+    "server": "165.154.234.12",
+    "port": "1500",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "www.baidu.com"
+    }
+  },
+  {
+    "name": "[Lite]日本AZ|三网优化|直连|解锁|JP03@V2",
+    "type": "vmess",
+    "server": "20.89.139.42",
+    "port": "8082",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "www.baidu.com"
+    }
+  },
+  {
+    "name": "[Lite]美国|电信联通优化|解锁|US01@V2",
+    "type": "vmess",
+    "server": "us01.nodes.backwaves.net",
+    "port": "6443",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": true,
+    "supported": {}
+  },
+  {
+    "name": "[Lite]美国AZ|三网优化|直连|US02@V2",
+    "type": "vmess",
+    "server": "20.38.4.225",
+    "port": "10003",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "www.three.com.hk"
+    }
+  },
+  {
+    "name": "[Lite]美国LA|CN2 GIA|直连|解锁|US01@V2",
+    "type": "vmess",
+    "server": "155.94.177.20",
+    "port": "8082",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "www.three.com"
+    }
+  },
+  {
+    "name": "[Lite]美国LA①|三网优化|直连|0.5x|US05@V2",
+    "type": "vmess",
+    "server": "209.141.45.219",
+    "port": "8083",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "cloudflare.com"
+    }
+  },
+  {
+    "name": "[Lite]美国LA②|三网优化|直连|0.5x|US06@V2",
+    "type": "vmess",
+    "server": "205.185.120.35",
+    "port": "10000",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "cloudflare.com"
+    }
+  },
+  {
+    "name": "[Lite]香港AZ|三网优化|直连|解锁|HK06@V2",
+    "type": "vmess",
+    "server": "13.75.116.6",
+    "port": "8901",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "cloudflare.com"
+    }
+  },
+  {
+    "name": "[Lite]香港BGP|三网优化|直连|解锁|HK03@V2",
+    "type": "vmess",
+    "server": "213.173.33.26",
+    "port": "1000",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "cloudflare.com"
+    }
+  },
+  {
+    "name": "[Lite]香港HGC|电信移动优化|直连|原生|HK06@V2",
+    "type": "vmess",
+    "server": "218.190.244.73",
+    "port": "8900",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "www.cloudflare.com"
+    }
+  },
+  {
+    "name": "[Lite]香港HKBN|三网优化|直连|原生|100M|HK05@V2",
+    "type": "vmess",
+    "server": "61.93.201.162",
+    "port": "8901",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "www.cloudflare.com"
+    }
+  },
+  {
+    "name": "[Lite]香港HKT|移动优化|直连|原生|HK04@V2",
+    "type": "vmess",
+    "server": "223.197.3.106",
+    "port": "8101",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "www.three.com.hk"
+    }
+  },
+  {
+    "name": "[PRO]香港AZ|长沙联通|解锁|HK06@V2",
+    "type": "vmess",
+    "server": "116.163.10.12",
+    "port": "20004",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "res.baidu.com"
+    }
+  },
+  {
+    "name": "[PRO]香港BGP|上海CN2|解锁|HK01@V2",
+    "type": "vmess",
+    "server": "shcu114514.qwqcloud.cyou",
+    "port": "11451",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "baidu.com"
+    }
+  },
+  {
+    "name": "[PRO]香港BGP|佛山移动|解锁|HK01@V2",
+    "type": "vmess",
+    "server": "183.232.170.116",
+    "port": "10000",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "baidu.com"
+    }
+  },
+  {
+    "name": "[PRO]香港BGP|广州移动②|解锁|HK01@V2",
+    "type": "vmess",
+    "server": "183.236.57.140",
+    "port": "10000",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "baidu.com"
+    }
+  },
+  {
+    "name": "[PRO]香港BGP|广州移动③|解锁|HK01@V2",
+    "type": "vmess",
+    "server": "183.236.57.140",
+    "port": "10000",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "baidu.com"
+    }
+  },
+  {
+    "name": "[PRO]香港BGP|江门移动|解锁|HK01@V2",
+    "type": "vmess",
+    "server": "120.232.43.246",
+    "port": "10011",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "baidu.com"
+    }
+  },
+  {
+    "name": "[PRO]香港BGP|长沙联通|解锁|HK01@V2",
+    "type": "vmess",
+    "server": "116.163.10.12",
+    "port": "20005",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "res.baidu.com"
+    }
+  },
+  {
+    "name": "[PRO]香港HGC|AZHK|原生|HK06@V2",
+    "type": "vmess",
+    "server": "13.75.116.6",
+    "port": "30000",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "res.baidu.com"
+    }
+  },
+  {
+    "name": "[PRO]香港HGC|佛山移动|原生|HK06@V2",
+    "type": "vmess",
+    "server": "183.232.170.116",
+    "port": "10008",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "res.baidu.com"
+    }
+  },
+  {
+    "name": "[PRO]香港HGC|广州移动②|原生|HK06@V2",
+    "type": "vmess",
+    "server": "183.236.57.140",
+    "port": "10008",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "res.baidu.com"
+    }
+  },
+  {
+    "name": "[PRO]香港HGC|广州移动③|原生|HK06@V2",
+    "type": "vmess",
+    "server": "183.236.97.189",
+    "port": "55506",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "res.baidu.com"
+    }
+  },
+  {
+    "name": "[PRO]香港HGC|江门移动|原生|HK06@V2",
+    "type": "vmess",
+    "server": "120.232.43.246",
+    "port": "10000",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "www.baidu.com"
+    }
+  },
+  {
+    "name": "[PRO]香港HKT|AZHK|原生|HK04@V2",
+    "type": "vmess",
+    "server": "13.75.116.6",
+    "port": "30002",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "qcloud.com"
+    }
+  },
+  {
+    "name": "[PRO]香港HKT|佛山移动|原生|HK04@V2",
+    "type": "vmess",
+    "server": "183.232.170.116",
+    "port": "10004",
+    "cipher": "auto",
+    "uuid": "4ccf1a37-fb2b-36a5-b893-0623a770f14d",
+    "alterId": "2",
+    "tls": false,
+    "supported": {},
+    "network": "ws",
+    "ws-path": "/ws",
+    "ws-headers": {
+      "Host": "res.baidu.com"
+    }
+  }
+]
