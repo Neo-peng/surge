@@ -1,0 +1,6 @@
+# YouTubeMusic
+USER-AGENT,*YouTubeMusic*
+USER-AGENT,*com.google.ios.youtubemusic*
+USER-AGENT,YouTubeMusic*
+USER-AGENT,com.google.ios.youtubemusic*
+DOMAIN-SUFFIX,music.youtube.com
